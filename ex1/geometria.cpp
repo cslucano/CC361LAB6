@@ -39,4 +39,9 @@ Punto::Punto(int a, int b)
   *x = a;
   *y = b;
 }
+Punto::~Punto()
+{
+    delete x;
+    delete y;
+}
 

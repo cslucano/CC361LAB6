@@ -11,5 +11,6 @@ class Punto
   Punto();
   Punto(int);
   Punto(int,int);
+  ~Punto();
 };
 
