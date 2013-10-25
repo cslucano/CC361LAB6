@@ -1,4 +1,6 @@
 #include "geometria.h"
+#include "math.h"
+
 int Punto::get_X()
 {
   return *x;
@@ -14,7 +16,7 @@ void Punto::set(int a, int b)
 }
 int Punto::abs()
 {
-  return *x + *y;
+  return sqrt(*x * *x + *y * *y);
 }
 Punto::Punto()
 {

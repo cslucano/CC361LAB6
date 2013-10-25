@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "geometria.h"
+
 int main()
 {
   Punto* p = new Punto();

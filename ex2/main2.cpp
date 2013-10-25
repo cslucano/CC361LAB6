@@ -7,7 +7,6 @@ int main()
   {
     Punto* p = new Punto(i,i);
     cout<<i<<" "<<p<<" :"<<"("<<p->get_X()<<", "<<p->get_Y()<<")\n";    
-    delete p;
   }
 
   return 0;

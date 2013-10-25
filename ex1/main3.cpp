@@ -1,25 +1,15 @@
 #include <iostream>
 using namespace std;
+#include "geometria.h"
 int main()
 {
   for(int i=0; i < 1e9; i++)
   {
-    int* p = new int;
-    cout<<i<<" :"<<i<<"\n";
+    Punto* p = new Punto(i,i);
+    cout<<i<<" :"<<"("<<p->get_X()<<", "<<p->get_Y()<<")\r\n";    
+    delete p;
+    //sleep(2);
   }
 
-  int j;
-  cout<<j;
-
-  Complex c;
-  cout<<c
-
   return 0;
-}
-
-class Complex()
-{
-  public:
-  int x,y;
-  Complex(){this->x = 0; this->y = 0;}
 }
